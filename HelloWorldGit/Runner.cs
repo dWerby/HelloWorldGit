@@ -18,6 +18,7 @@ namespace HelloWorldGit
 						Console.WriteLine("Hello Git World");
 						Console.WriteLine("Just adding another...");
 						Console.WriteLine("Just adding another line...");
+						Console.WriteLine("...User 2");
 
 						var calc = new Calculator();
 						Console.WriteLine("Added values are: " + calc.Add(7, 8));
