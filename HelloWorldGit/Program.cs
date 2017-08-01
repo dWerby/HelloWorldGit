@@ -10,7 +10,7 @@ namespace HelloWorldGit
 				{
 				static void Main(string[] args)
 						{
-						var runner = new Runner();
+						Runner runner = new Runner();
 						runner.Run();
 						}
 				}
