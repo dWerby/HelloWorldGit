@@ -10,10 +10,8 @@ namespace HelloWorldGit
 				{
 				static void Main(string[] args)
 						{
-						Console.WriteLine("Hello Git World");
-						Console.WriteLine("Just adding another...");
-						Console.WriteLine("Just adding another line...");
-						Console.WriteLine("Just adding another line......");
+						var runner = new Runner();
+						runner.Run();
 						}
 				}
 		}
