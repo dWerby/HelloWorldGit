@@ -22,6 +22,9 @@ namespace HelloWorldGit
 						var calc = new Calculator();
 						Console.WriteLine("Added values are: " + calc.Add(7, 8));
 
+						Console.WriteLine("Subtracted values are: " + calc.Sub(7, 8));
+						Console.WriteLine("Subtracted values are: " + calc.Sub(8, 7));
+
 						}
 
 				}

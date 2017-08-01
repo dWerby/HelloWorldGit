@@ -18,5 +18,14 @@ namespace HelloWorldGit
 						return left + right;
 						}
 
+				public int Sub(int left, int right)
+						{
+						if (left >= right)
+								{
+								return left - right;
+								}
+						return 0;
+						}
+
 				}
 		}
