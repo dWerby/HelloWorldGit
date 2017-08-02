@@ -32,5 +32,10 @@ namespace HelloWorldGit
 						return left / right;
 						}
 
+				public int Mult(int left, int right)
+						{
+						return left * right;
+						}
+
 				}
 		}
