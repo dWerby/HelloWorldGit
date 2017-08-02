@@ -20,11 +20,16 @@ namespace HelloWorldGit
 
 				public int Sub(int left, int right)
 						{
-						if (left >= right)
+						return left - right;
+						}
+
+				public int Div(int left, int right)
+						{
+						if (right == 0)
 								{
-								return left - right;
+								return 0;
 								}
-						return 0;
+						return left / right;
 						}
 
 				}

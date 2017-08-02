@@ -25,6 +25,9 @@ namespace HelloWorldGit
 						Console.WriteLine("Subtracted values are: " + calc.Sub(7, 8));
 						Console.WriteLine("Subtracted values are: " + calc.Sub(8, 7));
 
+						Console.WriteLine("Divided values are: " + calc.Div(14, 2));
+						Console.WriteLine("Divided values are: " + calc.Div(14, 0));
+
 						}
 
 				}
