@@ -27,6 +27,7 @@ namespace HelloWorldGit
 
 						Console.WriteLine("Divided values are: " + calc.Div(14, 2));
 						Console.WriteLine("Divided values are: " + calc.Div(14, 0));
+						Console.WriteLine("Multiplied values are: " + calc.Mult(8, 7));
 
 						}
 
