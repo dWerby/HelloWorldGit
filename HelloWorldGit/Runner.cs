@@ -32,6 +32,9 @@ namespace HelloWorldGit
 						Console.WriteLine("Modulus result is: " + calc.Modulus(8, 7));
 						Console.WriteLine("Modulus result is: " + calc.Modulus(15, 4));
 
+						Console.WriteLine("StdDivided values are: " + calc.StdDiv(14, 2.54));
+						Console.WriteLine("StdDivided values are: " + calc.StdDiv(14, 0));
+
 						}
 
 				}

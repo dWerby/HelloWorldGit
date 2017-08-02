@@ -42,5 +42,14 @@ namespace HelloWorldGit
 						return left % right;
 						}
 
+				public double StdDiv(double left, double right)
+						{
+						if (right == 0)
+								{
+								return 0;
+								}
+						return left / right;
+						}
+
 				}
 		}
